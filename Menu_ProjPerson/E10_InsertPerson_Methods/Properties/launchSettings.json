@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "E10_InsertPerson_Methods": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}

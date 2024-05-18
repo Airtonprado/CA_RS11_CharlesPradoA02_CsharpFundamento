@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\RS11\\CA_2024.04_RS11_A02_OOP\\A02_C02_CSharp_F\\06_20240429\\CO2_CSF\\E10_InsertPerson_Methods\\E10_InsertPerson_Methods.csproj": {}
+  },
+  "projects": {
+    "C:\\RS11\\CA_2024.04_RS11_A02_OOP\\A02_C02_CSharp_F\\06_20240429\\CO2_CSF\\D00_Utility\\D00_Utility.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\RS11\\CA_2024.04_RS11_A02_OOP\\A02_C02_CSharp_F\\06_20240429\\CO2_CSF\\D00_Utility\\D00_Utility.csproj",
+        "projectName": "D00_Utility",
+        "projectPath": "C:\\RS11\\CA_2024.04_RS11_A02_OOP\\A02_C02_CSharp_F\\06_20240429\\CO2_CSF\\D00_Utility\\D00_Utility.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\RS11\\CA_2024.04_RS11_A02_OOP\\A02_C02_CSharp_F\\06_20240429\\CO2_CSF\\E10_InsertPerson_Methods\\E10_InsertPerson_Methods.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\RS11\\CA_2024.04_RS11_A02_OOP\\A02_C02_CSharp_F\\06_20240429\\CO2_CSF\\E10_InsertPerson_Methods\\E10_InsertPerson_Methods.csproj",
+        "projectName": "E10_InsertPerson_Methods",
+        "projectPath": "C:\\RS11\\CA_2024.04_RS11_A02_OOP\\A02_C02_CSharp_F\\06_20240429\\CO2_CSF\\E10_InsertPerson_Methods\\E10_InsertPerson_Methods.csproj",
+        "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
+        "outputPath": "C:\\RS11\\CA_2024.04_RS11_A02_OOP\\A02_C02_CSharp_F\\06_20240429\\CO2_CSF\\E10_InsertPerson_Methods\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Charles\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\RS11\\CA_2024.04_RS11_A02_OOP\\A02_C02_CSharp_F\\06_20240429\\CO2_CSF\\D00_Utility\\D00_Utility.csproj": {
+                "projectPath": "C:\\RS11\\CA_2024.04_RS11_A02_OOP\\A02_C02_CSharp_F\\06_20240429\\CO2_CSF\\D00_Utility\\D00_Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.3.24204.13/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
