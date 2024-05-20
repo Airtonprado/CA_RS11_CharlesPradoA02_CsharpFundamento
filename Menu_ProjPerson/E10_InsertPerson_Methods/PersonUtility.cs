@@ -9,11 +9,15 @@ namespace E10_InsertPerson_Methods
 {
     internal class PersonUtility
     {
+        // Todo MRS: o método Menu está a fazer mais do que devia, tens de separar em métodos.
         public void Menu()
         {
+            // Todo MRS: istoo SetUnicodeConsole() deve estar no Main() e não aqui.
             Utility.SetUnicodeConsole();
+            
             Utility.WriteTitle("Menu Insert Person");
 
+            // Todo MRS: no dicionário deves colocar as opções do menu e não teres 1 método para dizer opção 1, opção 2, ...
             Dictionary<int, Action> menuOptions = new Dictionary<int, Action>
             {
                 { 1, ShowOption1 },
@@ -56,8 +60,10 @@ namespace E10_InsertPerson_Methods
             }
         }
 
+        // Todo MRS: estes métodos do menu deviam ser métodos da classe Person.
         static void ShowOption1()
         {
+            // Todo MRS: evitar mandar mensagens ao user que não acrescentam valor
             Console.WriteLine("Você escolheu a Opção 1.");
             Person.AddPerson();
         }
@@ -109,6 +115,7 @@ namespace E10_InsertPerson_Methods
         static void ShowOption8()
         {
             Console.WriteLine("Você escolheu a Opção 8. Saindo do programa...");
+            // Todo MRS: não usar Thread.Sleep(2000)
             Thread.Sleep(2000); // tempo para ler a mensagem
             Environment.Exit(0); // Encerra o programa
         }
