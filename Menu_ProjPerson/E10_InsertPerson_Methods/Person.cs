@@ -21,6 +21,7 @@ namespace E10_InsertPerson_Methods
         internal int Id { get; private set; }
         internal string Name { get; set; }
 
+        // Todo MRS: não é assim que se implementa o construtor vazio.
         internal Person() { }
 
         public Person(string name)
@@ -31,6 +32,8 @@ namespace E10_InsertPerson_Methods
         public void DisplayInfo()
         {
            // Console.WriteLine($"ID: {Id}, Nome: {Name}");
+
+            // Todo MRS: porquê var?
             var listind = Person.listPerson;
            
             int index = listind.FindIndex(p => p.Name == this.Name);
@@ -60,6 +63,7 @@ namespace E10_InsertPerson_Methods
         internal static void AddPerson()
         {
 
+            // Todo MRS: pedes um nome de cada vez e, se quiseres, perguntas se é para continuar a inserir. Não inseres 4 de uma só vez.
             for (int i = 0; i < 5; i++)
             {
                 Utility.WriteMessage("Digite o nome da pessoa: ", "\n");
