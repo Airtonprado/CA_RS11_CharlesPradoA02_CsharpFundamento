@@ -12,6 +12,8 @@ namespace E10_InsertPerson_Methods
     {
         static void Main(string[] args)
         {
+
+            // Todo MRS: implementar o try.
             Utility.SetUnicodeConsole();
             Utility.WriteTitle("Menu Insert play People","\n");
             PersonUtility personUtility = new PersonUtility();
